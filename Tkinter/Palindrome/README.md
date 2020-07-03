@@ -1,4 +1,4 @@
-![ss](/tkinter/palindrome/owl.png)
+![ss](/Tkinter/palindrome/owl.png)
 # Palindrome on Python
 
 This is my first experiments with tkinter.  
