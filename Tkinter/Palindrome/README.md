@@ -13,5 +13,3 @@ PalindromeS.py - code
 фон.png, cat.png, owl.png, диалог_кот.png, диалог_сова.png - pictures for visual design  
 PalindromeS.spec - specification file for compilation  
 PalindromeS.exe - compiled application  
-
-![ss](/tkinter/palindrome/cat.png)
