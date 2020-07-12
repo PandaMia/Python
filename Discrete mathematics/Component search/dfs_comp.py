@@ -23,6 +23,3 @@ for i in range(num_vert):
         comp_count += 1
 
 print(comp_count)
-
-
-
