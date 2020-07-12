@@ -1,7 +1,6 @@
 from collections import Counter, defaultdict
 
 def dfs(current, color=0):
-    print('current', current)
     if color == 1:    
         colored[current - 1] = 1
     is_visited[current - 1] = True
@@ -28,12 +27,11 @@ for i in range(num_edge):
     adj_list[second][first] += 1
 
 check_visit(1)
-print(colored)
+
 flag = True
 for first, adj in adj_list.items():
     if flag:
         for second in adj:
-            print(first, second)
             if adj_list[first][second] > 0:
                 if colored[first - 1] == colored[second - 1]:
                     flag = False
