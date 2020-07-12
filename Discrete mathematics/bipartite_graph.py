@@ -1,5 +1,3 @@
-# Проверить является ли граф двудольным.
-
 from collections import Counter, defaultdict
 
 def dfs(current, color=0):
